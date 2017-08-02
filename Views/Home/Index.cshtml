@@ -1,0 +1,15 @@
+@{
+  Layout = "_Layout";
+}
+<h1>Welcome to Tamagotchi!</h1>
+<h2>Please don't forget to take care of your pet.</h2>
+<h3> Should we trust you on that?</h3>
+
+<div class="form-group">
+  <form action="/takeCare" method="post">
+    <label for="pet-name">Name your pet</label>
+    <input type="text" class="form-control">
+  </form>
+</div>
+
+<a href="/takeCare"><button class="btn btn-lg btn-primary">Take Care Tamagotchi</button> </a>
